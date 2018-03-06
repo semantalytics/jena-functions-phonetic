@@ -1,0 +1,8 @@
+com.semantalytics.stardog.kibble.string.phonetic.Caverphone2
+com.semantalytics.stardog.kibble.string.phonetic.ColognePhonetic
+com.semantalytics.stardog.kibble.string.phonetic.DaitchMokotoffSoundex
+com.semantalytics.stardog.kibble.string.phonetic.DoubleMetaphone
+com.semantalytics.stardog.kibble.string.phonetic.Metaphone
+com.semantalytics.stardog.kibble.string.phonetic.Nysiis
+com.semantalytics.stardog.kibble.string.phonetic.RefinedSoundex
+com.semantalytics.stardog.kibble.string.phonetic.Soundex

@@ -14,11 +14,16 @@ public enum PhoneticVocabulary {
     refinedSoundex,
     soundex;
 
-    public static final String NAMESPACE = "http://semantalytics.com/2017/09/ns/stardog/kibble/strings/phonetic/";
+    public static final String NAMESPACE = "http://semantalytics.com/2017/09/ns/stardog/kibble/string/phonetic/";
     public final IRI iri;
+
 
     PhoneticVocabulary() {
         iri = StardogValueFactory.instance().createIRI(NAMESPACE, name());
+    }
+
+    public static String sparqlPrefix(String prefixName) {
+        return "PREFIX " + prefixName + ": <" + NAMESPACE + "> ";
     }
 
     public String stringValue() {
